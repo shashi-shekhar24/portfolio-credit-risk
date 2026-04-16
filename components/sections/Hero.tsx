@@ -31,7 +31,7 @@ export function Hero() {
       <div className="relative z-10 max-w-4xl">
         {/* Eyebrow */}
         <div
-          className="animate-fade-in-up opacity-0 mb-8"
+          className="animate-fade-in-up mb-8"
           style={{ animationDelay: "0s" }}
         >
           <span className="inline-flex items-center gap-2 text-xs font-mono text-[#635BFF] uppercase tracking-widest">
@@ -42,7 +42,7 @@ export function Hero() {
 
         {/* Headline — LCP element, CSS animation only */}
         <h1
-          className="font-display text-5xl md:text-7xl font-medium tracking-tight leading-[1.1] text-[#EDEDED] animate-fade-in-up opacity-0 mb-8"
+          className="font-display text-5xl md:text-7xl font-medium tracking-tight leading-[1.1] text-[#EDEDED] animate-fade-in-up mb-8"
           style={{
             animationDelay: "0.1s",
             fontFamily: "var(--font-fraunces), serif",
@@ -57,7 +57,7 @@ export function Hero() {
 
         {/* Subtext */}
         <p
-          className="text-lg md:text-xl text-[#A1A1AA] max-w-2xl leading-relaxed animate-fade-in-up opacity-0"
+          className="text-lg md:text-xl text-[#A1A1AA] max-w-2xl leading-relaxed animate-fade-in-up"
           style={{ animationDelay: "0.3s" }}
         >
           {heroContent.subtext}
@@ -65,7 +65,7 @@ export function Hero() {
 
         {/* CTAs */}
         <div
-          className="mt-12 flex flex-col sm:flex-row gap-4 animate-fade-in-up opacity-0"
+          className="mt-12 flex flex-col sm:flex-row gap-4 animate-fade-in-up"
           style={{ animationDelay: "0.5s" }}
         >
           <Link
@@ -84,7 +84,7 @@ export function Hero() {
 
         {/* Stats row */}
         <div
-          className="mt-16 flex flex-wrap gap-8 animate-fade-in-up opacity-0"
+          className="mt-16 flex flex-wrap gap-8 animate-fade-in-up"
           style={{ animationDelay: "0.7s" }}
         >
           {[
@@ -109,7 +109,7 @@ export function Hero() {
 
       {/* Scroll indicator */}
       <div
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-fade-in-up opacity-0 flex flex-col items-center gap-2"
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-fade-in-up flex flex-col items-center gap-2"
         style={{ animationDelay: "1s" }}
         aria-hidden="true"
       >
