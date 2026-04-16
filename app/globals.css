@@ -45,3 +45,14 @@ body {
 .animate-fade-in-up {
   animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
+
+/* ScrollReveal: content is visible by default (no opacity:0 in HTML)
+   JS adds scroll-reveal-visible to trigger the animation on intersection */
+.scroll-reveal {
+  opacity: 1;
+  transform: none;
+}
+
+.scroll-reveal.scroll-reveal-visible {
+  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
